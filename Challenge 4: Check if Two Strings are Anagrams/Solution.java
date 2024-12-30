@@ -17,12 +17,10 @@ public class Solution {
         char[] sChars = s.toCharArray();
         Arrays.sort(sChars);
         s = String.valueOf(sChars);
-        System.out.println("s sorted="+s);
 
         char[] tChars = t.toCharArray();
         Arrays.sort(tChars);
         t = String.valueOf(tChars);
-        System.out.println("t sorted="+t);
 
         return s.equals(t);
     }
